@@ -68,32 +68,7 @@ A Gradio App allows users to upload a CSV of flux points and get predictions:
 - 3D orbit visualization based on predicted radius and period
 
 ---
-## Project Structure
-exoplanet-transit-detection/
-│
-├── data/
-│   └── samples/           # Example light curves
-│
-├── models/                # Saved trained models
-│   ├── best_model.h5
-│   ├── baseline_logistic_model.pkl
-│   └── flux_scaler.pkl
-│
-├── notebooks/
-│   └── exoplanet_transit_detector.ipynb
-│
-├── results/               # Plots, metrics, visualizations
-│
-├── app/                   # Gradio deployment (if present)
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
 
-## Author
-
-Rahul Deevanapalli
-M.S. Data Science | Machine Learning Engineer
 
 ## Setup Instructions
 
