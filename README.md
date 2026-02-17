@@ -69,29 +69,26 @@ A Gradio App allows users to upload a CSV of flux points and get predictions:
 
 ---
 ## Project Structure
-
 exoplanet-transit-detection/
 │
 ├── data/
-│ └── samples/ # Example synthetic light curve CSV files
+│   └── samples/           # Example light curves
 │
-├── models/ # Trained models and preprocessing objects
-│ ├── baseline_logistic_model.pkl
-│ ├── best_model.h5
-│ ├── exoplanet_transformer_model.keras
-│ └── flux_scaler.pkl
+├── models/                # Saved trained models
+│   ├── best_model.h5
+│   ├── baseline_logistic_model.pkl
+│   └── flux_scaler.pkl
 │
 ├── notebooks/
-│ └── exoplanet_transit_detector.ipynb # Model development and experiments
+│   └── exoplanet_transit_detector.ipynb
 │
-├── results/ # Evaluation outputs and visualizations
+├── results/               # Plots, metrics, visualizations
 │
-├── app/ # Gradio deployment (if included)
+├── app/                   # Gradio deployment (if present)
 │
-├── requirements.txt # Python dependencies
+├── requirements.txt
 ├── README.md
 └── .gitignore
----
 
 ## Author
 
