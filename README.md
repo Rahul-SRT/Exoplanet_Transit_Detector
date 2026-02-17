@@ -4,7 +4,8 @@
 This project builds an end-to-end machine learning system to detect exoplanet transit signals from stellar light curves. The system simulates large-scale astronomical data and compares classical machine learning with deep learning architectures to identify planetary signatures.
 
 Detecting exoplanets from telescope data is a large-scale time-series classification problem critical for modern astronomy.
-##Key Highlights
+
+## Keys Highlights
 - Generated 150,000 synthetic light curves
 
 - Built end-to-end ML pipeline
