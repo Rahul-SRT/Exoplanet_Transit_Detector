@@ -1,11 +1,21 @@
 
 # Exoplanet Transit Detector
 
-This project focuses on detecting exoplanet transits using deep learning techniques. The workflow includes:
-- Simulating light curves for exoplanet transits, no transits, and false positives
-- Training a Transformer Encoder model and a Logistic Regression baseline
-- Comparing their performances on a test set
-- Visualizing results like UMAP clustering, confusion matrices, and orbit simulation
+This project builds an end-to-end machine learning system to detect exoplanet transit signals from stellar light curves. The system simulates large-scale astronomical data and compares classical machine learning with deep learning architectures to identify planetary signatures.
+
+Detecting exoplanets from telescope data is a large-scale time-series classification problem critical for modern astronomy.
+##Key Highlights
+- Generated 150,000 synthetic light curves
+
+- Built end-to-end ML pipeline
+
+- Compared Logistic Regression vs Transformer Encoder
+
+- Implemented Focal Loss for class imbalance
+
+- Added Gradio deployment for interactive predictions
+
+- Included advanced visualizations (UMAP, ROC, 3D orbit simulation)
 
 ## Dataset
 Instead of using real telescope datasets (which can be noisy, incomplete, and too small), we generate synthetic data that mimics real astronomical light curves:
