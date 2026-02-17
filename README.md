@@ -5,7 +5,7 @@ This project builds an end-to-end machine learning system to detect exoplanet tr
 
 Detecting exoplanets from telescope data is a large-scale time-series classification problem critical for modern astronomy.
 
-## Keys Highlights
+## Key Highlights
 - Generated 150,000 synthetic light curves
 
 - Built end-to-end ML pipeline
